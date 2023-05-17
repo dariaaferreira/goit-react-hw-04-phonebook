@@ -7,7 +7,7 @@ import { Container, Title } from './App.styled';
 
 export const App = () => {
   const [contacts, setContacts] = useState(() =>
-    JSON.parse(localStorage.getItem('contacts')) || []
+    JSON.parse(localStorage.getItem('contacts'))
   );
   const [filter, setFilter] = useState('');
 
